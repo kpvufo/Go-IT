@@ -1,0 +1,75 @@
+html {
+ font-family: Arial, sans-serif;
+ font-stretch: normal; 
+ line-height: 1.5;
+}
+
+body {
+ display: block;
+ margin: 3% 22% 3% 17%;
+ background-color: #D5D6D6;
+}
+
+h1 {
+	text-align: center;
+}
+
+figure{
+	text-align: center;
+}
+
+.photo{
+	text-align: center;
+}
+
+.wrapper {
+	margin: 20px 0 auto
+	width: 923px;
+	height: 923px;
+	background-color: #F5F5F4;
+	border: 1px solid gray;
+}
+
+.content {
+	width: 500px;
+	margin: 0 auto;
+	}
+
+img{
+	width: 190px;
+	height: 190px;
+	border: 1px solid gray;
+}
+
+.text_under_photo{
+	color: gray;
+	font-size: 15px;
+}
+
+.phone{
+ 	margin-left: 30px;
+ 	font-size: 15px;
+}
+
+.link{
+ 	margin-left: 30px;
+ 	color: #1095E5;
+ 	font-size: 15px;
+ }
+
+.coments{
+ 	margin-left: 30px;
+ 	font-size: 15px;
+}			
+
+.bio {
+	border-bottom: 1px solid gray;
+}
+
+.why_frontend{
+	border-bottom: 1px solid gray;
+}
+
+.contacts{
+	border-bottom: 1px solid gray;
+}
