@@ -7,7 +7,8 @@ public class Task11_1 {
             System.out.print(a + ", " + b + ", ");
         for (int i = 3; i <= 11; i++) {
             c = a + b;
-            a = b = c;
+            a = b;
+            b = c;
             System.out.println(i + ") " + c);
         }
     }

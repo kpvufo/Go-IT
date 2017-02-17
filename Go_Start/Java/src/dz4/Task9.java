@@ -10,14 +10,13 @@ public class Task9 {
         System.out.println("Enter a natural number in the range from -10 to 10: ");
         int n = in.nextInt();
         if (range(n)) {
+            System.out.println(n + ", The number range");
+        } else {
             System.out.println(n + ", Not in the range");
         }
-            else {
-        System.out.println(n + ", The number range");
-            }
     }
 
     public static boolean range(int n) {
-        return (n >= -10 && n >= 10);
+        return (n >= -10 && n <= 10);
     }
 }

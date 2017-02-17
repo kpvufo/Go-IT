@@ -13,9 +13,10 @@ public class Task8 {
     }
 
     public static int naturalNumberDivisors(int n) {
+        System.out.println("Positive divisor of number is: ");
         for (int i = 1; i <= n; i++) {
             if (n % i == 0) {
-                System.out.println("Positive divisor of number is: " + i);
+                System.out.print(i + ", ");
             }
         }
         return n;
