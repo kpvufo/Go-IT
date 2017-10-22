@@ -1,0 +1,32 @@
+body {
+    background: url(images/page-bg.png) reno-repea;
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.content {
+    font-family: "Open Sans Condensed", sans-serif;
+    box-shadow: 0 0 5px 2px #B1AFAF;
+    border: 1px solid #B1AFAF;
+    border-radius: 3px;
+    padding-right: 40px;
+    padding-left: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    content: 
+}
+
+h1,
+h3 {
+    color: rgb(63, 76, 104);
+}
+
+divimages img {
+	max-width: 600px;
+}	
+
+

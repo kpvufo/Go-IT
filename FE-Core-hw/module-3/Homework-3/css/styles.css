@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1920px;
+    height: 1930px;
+    background: url("../images/page-bg.png") no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.wrapper {
+    margin: 240px 720px 542px;
+    padding: 50px 40px;
+    background-color: white;
+    max-width: 480px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+}
+
+.principles,
+.offer,
+.hr {
+    padding-top: 50px;
+}
+
+h3 {
+    padding-top: 27px;
+}
+
+p {
+    padding-top: 22px;
+}
+
+.principles p {
+    padding-top: 15px;
+}
+
+.inline-block {
+    padding-top: 37px;
+}
+
+img {
+    max-width: 100%;
+    padding-top: 32px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+h1,
+h3,
+li {
+    color: #263555;
+}
