@@ -4,15 +4,18 @@
 }
 
 body {
-    width: 1920px;
-    height: 1930px;
-    background: url("../images/page-bg.png") no-repeat;
+    width: auto;
+    height: auto;
+    background: #9cbbe2 url("../images/page-bg.png") no-repeat center center fixed;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+    margin-top: 240px;
+    margin-bottom: 542px;
 }
 
 .wrapper {
-    margin: 240px 720px 542px;
+    margin: auto;
     padding: 50px 40px;
     background-color: white;
     max-width: 480px;
@@ -25,8 +28,7 @@ h1 {
 }
 
 .principles,
-.offer,
-.hr {
+.offer {
     padding-top: 50px;
 }
 
@@ -40,6 +42,11 @@ p {
 
 .principles p {
     padding-top: 15px;
+}
+
+.principles {
+    border-bottom: 1px solid #333;
+    padding-bottom: 50px;
 }
 
 .inline-block {
@@ -68,4 +75,8 @@ h1,
 h3,
 li {
     color: #263555;
+}
+
+a {
+    text-decoration: none;
 }
