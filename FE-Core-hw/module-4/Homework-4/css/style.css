@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background: #9cbbe2 url("https://files.slack.com/files-tmb/T79DPALD9-F7QM65W73-3507417962/page-bg_720.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 230px;
+    margin-bottom: 270px;
+    counter-reset: heading;
+}
+
+.wraper {
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    box-sizing: border-box;
+    max-width: 1024px;
+    box-sizing: border-box;
+}
+
+.top,
+.bottom {
+    font-size: 0;
+}
+
+.main,
+.aside {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.main {
+    max-width: 660px;
+}
+
+.aside {
+    max-width: 210px;
+    padding-left: 50px;
+}
+
+img {
+    float: left;
+    padding: 0px 24px 18px 0px;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Pathway Gothic One';
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h3,
+li,
+a {
+    font-size: 15px;
+}
+
+p {
+    font-size: 12px;
+}
+
+h3,
+h2,
+a {
+    color: #263555;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    border-bottom: 1px solid #dedbdb;
+    padding-bottom: 50px;
+}
+
+.comments {
+    background: white url("https://files.slack.com/files-tmb/T79DPALD9-F7RJHM4FP-b93a29043b/layer-85-copy_360.png") no-repeat center center fixed;
+    /* border: 1px solid #333; */
+}
+
+.inline-block li {
+    text-decoration: none;
+    color: #0E1116;
+    padding-top: 10px;
+}
+
+ul>li:before {
+    content: "\2192";
+    color: #38afe5;
+    width: 10px;
+    height: 7px;
+    padding-right: 14px;
+}
+
+ul {
+    list-style: none;
+    columns: 2;
+    column-width: 50%;
+}
+
+.indentation {
+    padding-top: 14px;
+}
+
+.bottom,
+.main h3,
+.bottom,
+.aside h3 {
+    padding-bottom: 20px;
+}
+
+.bottom,
+.main li {
+    padding-top: 30px;
+}
+
+.top,
+.main h3 {
+    padding-bottom: 15px;
+}
+
+.bottom>.aside>h2 {
+    padding-bottom: 25px;
+}
+
+.top>.aside>p {
+    padding: 0px 0px 32px 36px;
+}
+
+.top>.aside>h3::before {
+    counter-increment: heading;
+    content: counter(heading);
+    display: inline-block;
+    text-align: center;
+    background-color: #38afe5;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    vertical-align: top;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 13px;
+    border: 1px solid #85aec1;
+    margin-right: 11px;
+}
+
+.coments::before {
+    content: "\201C";
+    margin-right: 2px;
+}
+
+.coments::after {
+    content: "\201D";
+    margin-right: 2px;
+}
+
+.coments {
+    margin: 0px;
+    text-indent: 0.7rem;
+    width: 167px;
+    height: 148px;
+    font-size: 15px;
+    border: 1px solid #dedbdb;
+    border-radius: 3px;
+    padding: 23px;
+    position: relative;
+}
+
+.coments::before,
+.coments::after {
+    content: '';
+    position: absolute;
+    left: 100px;
+    bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid #dedbdb;
+}
+
+.coments::after {
+    border-top: 10px solid white;
+    bottom: -19px;
+}
+
+.bottom>.aside>h3 {
+    padding: 60px 0px 20px 0;
+    text-align: center;
+}
+
+.bottom>.aside>p {
+    padding-left: 10px;
+}

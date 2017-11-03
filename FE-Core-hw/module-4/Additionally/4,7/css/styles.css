@@ -1,0 +1,29 @@
+.wraper {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    counter-reset: li;
+    padding: 10px;
+}
+
+/* .content {
+    max-width: 400px;
+} */
+
+li {
+    padding-bottom: 10px;
+    list-style: none;
+
+}
+
+li:before {
+    counter-increment: Lorem;
+    content: counter(Lorem);
+    display: inline-block;
+    text-align: center;
+    background-color: orangered;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 10px;
+}
