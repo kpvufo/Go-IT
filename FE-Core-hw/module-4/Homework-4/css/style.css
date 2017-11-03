@@ -87,18 +87,13 @@ a {
     padding-bottom: 50px;
 }
 
-.comments {
-    background: white url("https://files.slack.com/files-tmb/T79DPALD9-F7RJHM4FP-b93a29043b/layer-85-copy_360.png") no-repeat center center fixed;
-    /* border: 1px solid #333; */
-}
-
 .inline-block li {
     text-decoration: none;
     color: #0E1116;
     padding-top: 10px;
 }
 
-ul>li:before {
+a:before {
     content: "\2192";
     color: #38afe5;
     width: 10px;
