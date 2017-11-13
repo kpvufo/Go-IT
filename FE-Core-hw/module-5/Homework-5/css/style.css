@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background: #9cbbe2 url("https://files.slack.com/files-tmb/T79DPALD9-F7YDQ97H9-415099b27f/layer-57_720.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-bottom: 706px;
+}
+
+.wraper {
+    max-width: 1024px;
+    margin: auto;
+    position: relative;
+}
+
+nav {
+    max-width: 1024px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 900px;
+    padding: 60px 60px 130px;
+    min-height: auto;
+    margin: auto;
+    background-color: #fff;
+}
+
+
+/* =============  Header  ============== */
+
+header>h2 {
+    color: #263555;
+    font-family: 'Pathway Gothic One';
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/* -------------  Header  ---------------- */
+
+
+/* -------------  Logo  ---------------- */
+
+.logo {
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    border-radius: 70px;
+    border: 1px solid #85aec1;
+    position: absolute;
+    left: 50%;
+    margin: 45px 0px 0px -70px;
+}
+
+.logo>h2 {
+    font-family: 'Dorsa', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+
+/* =============  Logo  =================*/
+
+
+/* -------------  Menu  -------------*/
+
+.item {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Pathway Gothic One", "sans-serif";
+    font-size: 28px;
+    font-weight: 400;
+    padding: 100px 60px 110px 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li {
+    list-style: none;
+}
+
+.menu {
+    padding-left: 100px;
+}
+
+.item:nth-of-type(3) {
+    margin-right: 160px;
+}
+
+.link:hover {
+    color: #263555;
+    display: block;
+}
+
+
+/*============  Menu  ============== */
+
+
+/* -----------  Under-menu  --------------*/
+
+.under-menu {
+    display: none;
+    text-align: center;
+    line-height: 20px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #85aec1;
+    padding: 7px 9px;
+    margin: 9px 0px 0px -5px;
+}
+
+.under-link {
+    color: #6b7488;
+    font-family: "Pathway Gothic One", "sans-serif";
+    ;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.under-link>a {
+    padding: 9px;
+}
+
+.item:hover>.under-menu {
+    display: block;
+}
+
+.under-link:hover {
+    color: #c42929;
+}
+
+.under-menu:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid white;
+}
+
+
+/* ==============  under-menu  ==============*/
+
+
+/* --------------  slider  ----------------*/
+
+.linkLeft,
+.linkRight {
+    background-color: #38afe5;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    color: #f6fbfe;
+    width: 45px;
+    height: 90px;
+    line-height: 90px;
+    position: relative;
+}
+
+.linkLeft {
+    border-radius: 45px 0px 0px 45px;
+    margin: 0px 0px 40px 40px;
+}
+
+.linkRight {
+    right: 4px;
+    border-radius: 0px 45px 45px 0px;
+}
+
+.linkLeft:before,
+.linkRight:before {
+    content: "";
+}
+
+.linkLeft:before {
+    display: inline-block;
+    content: "\2190";
+    width: 13px;
+    height: 13px;
+}
+
+.linkRight:before {
+    display: inline-block;
+    content: "\2192";
+}
+
+.linkRight:hover,
+.linkLeft:hover {
+    opacity: 0.7;
+    color: rgb(172, 6, 6);
+}
+
+
+/* ===============  slider  =================*/
+
+
+/* -------------- Top  ------------------ */
+
+.top {
+    max-width: 900px;
+    max-height: 580px;
+    background: #fff url('https://files.slack.com/files-tmb/T79DPALD9-F7Y8DD079-39ea26dab5/layer-6_720.png') no-repeat;
+    background-size: cover;
+}
+
+
+/* Неделю боролся с проблеммой отталкнуть Н4 от верха, ничего другого в итоге не придумал как поставить заглушку в виде .push и от неё отталкнуться...  */
+
+.push {
+    width: 1px;
+    height: 1px;
+}
+
+.top>h4 {
+    width: 220px;
+    height: 60px;
+    color: #263555;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 220px;
+    background-color: #fff;
+    border: 2px solid #eaeae9;
+    display: block;
+}
+
+.top>h2 {
+    width: 270px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-family: "Pathway Gothic One";
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #38afe5;
+    margin-bottom: 110px;
+}
+
+
+/* ==============  Top  ================== */
+
+
+/* --------------  Bottom  --------------- */
+
+.destinations {
+    color: #263555;
+    font-family: "Pathway Gothic One";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 60px 0px 50px;
+}
+
+.destinationCard {
+    display: inline-block;
+    width: 286px;
+    height: 270px;
+    vertical-align: bottom;
+}
+
+.destinationCard:nth-of-type(1) {
+    background: url("https://files.slack.com/files-tmb/T79DPALD9-F7Y4S3QVB-304ff6991f/layer-15_360.png") no-repeat;
+}
+
+.destinationCard:nth-of-type(2) {
+    background: url("https://files.slack.com/files-tmb/T79DPALD9-F7XTSFEAF-6f70c68570/layer-16_360.png") no-repeat;
+    margin: 0px 18px;
+}
+
+.destinationCard:nth-of-type(3) {
+    background: url("https://files.slack.com/files-tmb/T79DPALD9-F7Y4S6VK7-b3009ef7ce/layer-17_360.png") no-repeat;
+}
+
+article {
+    position: relative;
+    width: 146px;
+    height: 270px;
+    background-color: #193149;
+    visibility: hidden;
+}
+
+.city {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 17px 0px;
+}
+
+.info {
+    color: #cbc6c6;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15.21px;
+    text-align: justify;
+    padding: 0px 10px 30px;
+}
+
+.button {
+    border: 1px solid rgba(159, 150, 150, 0.81);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 4px 13px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: absolute;
+    right: 10px;
+    bottom: 18px;
+}
+
+.destinationCard:hover>article {
+    visibility: visible;
+}
+
+.button:hover {
+    background-color: rgb(167, 162, 162);
+}
+
+
+/* ==============  Bottom  =============== */
+
+
+/* --------------  To-topButton  ------------ */
+
+.to-topButton {
+    width: 30px;
+    height: 30px;
+    background-color: #38afe5;
+    color: #f6fbfe;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.linkLeft:before {
+    display: block;
+    content: "\005E";
+    color: rgb(172, 6, 6);
+}
+
+
+/* ==============  To-topButton  =============== */

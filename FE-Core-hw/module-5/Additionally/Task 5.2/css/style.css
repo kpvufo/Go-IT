@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wraper {
+    background-color: #c3d1fe;
+    max-width: 1024px;
+    margin: auto;
+    position: relative;
+}
+
+/* -------------Logo---------------- */
+
+.logo {
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    border-radius: 70px;
+    border: 1px solid #85aec1;
+    position: absolute;
+    left: 50%;
+    margin: 45px 0px 0px -70px;
+}
+
+h2 {
+    font-family: 'Dorsa', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+/* =============  Logo  ===================*/
+
+/* -----------  Navigation  ------------*/
+
+.item {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Pathway Gothic One", "sans-serif";
+    font-size: 28px;
+    font-weight: 400;
+    padding: 100px 60px 110px 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav {
+    padding-left: 100px;
+}
+
+.item:nth-of-type(3) {
+    margin-right: 160px;
+}
+
+.link:hover {
+    color: #263555;
+}
+
+/*============  Navigation  ============== */

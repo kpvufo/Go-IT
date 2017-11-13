@@ -1,0 +1,23 @@
+.navigation {
+    background-color: #c3d1fe;
+    width: 142px;
+}
+
+.logo {
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    line-height: 45px;
+    border-radius: 70px;
+    border: 1px solid #85aec1;
+}
+
+h2 {
+    font-family: "Dorsa";
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
